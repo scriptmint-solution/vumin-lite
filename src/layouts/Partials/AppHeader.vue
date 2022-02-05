@@ -7,7 +7,6 @@
             <i class="fas fa-bars lg:hidden text-gray-500 dark:text-gray-300" @click="setSidebar('mobile')"></i>
         </div>
         <div class="flex justify-between items-center space-x-4 px-4">
-            <BaseButton design="danger" @click="download">Download Now</BaseButton>
             <i class="fas fa-sun text-white cursor-pointer" v-if="display == 'dark'" @click="setDisplay('light')"></i>
             <i class="fas fa-moon text-white cursor-pointer" v-if="display == 'light'" @click="setDisplay('dark')"></i>
             <div class="flex items-center">
@@ -37,9 +36,5 @@ const setDisplay = (display) => {
 
 const setSidebar = (sidebar) => {
     store.dispatch('setSidebar', sidebar)
-}
-
-const download = () => {
-    location.href = 'https://auth.scriptmint.com'
 }
 </script>
