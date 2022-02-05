@@ -1,1 +1,1 @@
-# Vumit - Free Vue.js & Tailwind CSS Admin Template
+# Vumin - Free Vue.js & Tailwind CSS Admin Template
