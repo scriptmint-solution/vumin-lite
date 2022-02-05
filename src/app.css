@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+
+.rounded-table thead tr th:first-of-type {
+    @apply rounded-tl-lg;
+}
+.rounded-table thead tr th:last-of-type {
+    @apply rounded-tr-lg;
+}
+
+.rounded-table tbody tr:last-of-type td:first-of-type {
+    @apply rounded-bl-lg;
+}
+.rounded-table tbody tr:last-of-type td:last-of-type {
+    @apply rounded-br-lg;
+}
+
+.table-data {
+    @apply px-6 py-3 text-sm text-gray-900 dark:text-gray-300;
+}
+
+@tailwind utilities;
