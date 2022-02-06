@@ -38,49 +38,47 @@
         </div>
         <div class="-mt-10 px-4 w-full grid grid-cols-1 md:grid-cols-3 gap-4">
             <div class="col-span-1">
-                <div class="relative" ref="loadingContainer">
-                    <BaseCard no-padding>
-                        <template #title>
-                            Hello, John Doe
-                            <h3 class="text-2xl font-semibold">
-                                {{ moment().format('dddd Do, MMMM YYYY') }}
-                            </h3>
-                        </template>
-                        <template v-for="agenda in agendas">
-                            <div
-                                class="p-4 border-b border-gray-200 hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-neutral-700"
-                            >
-                                <div class="flex items-center">
-                                    <div class="shrink-0">
-                                        <div
-                                            class="rounded-full p-2"
-                                            :class="[agenda.color]"
-                                        >
-                                            <i
-                                                :class="agenda.icon"
-                                                class="text-white h-6 w-6 flex items-center justify-center"
-                                            ></i>
-                                        </div>
-                                    </div>
+                <BaseCard>
+                    <template #title>
+                        Hello, John Doe
+                        <h3 class="text-2xl font-semibold">
+                            {{ moment().format('dddd Do, MMMM YYYY') }}
+                        </h3>
+                    </template>
+                    <template v-for="agenda in agendas">
+                        <div
+                            class="p-4 border-b border-gray-200 hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-neutral-700"
+                        >
+                            <div class="flex items-center">
+                                <div class="shrink-0">
                                     <div
-                                        class="ml-5 w-0 flex items-center flex-1"
+                                        class="rounded-full p-2"
+                                        :class="[agenda.color]"
                                     >
-                                        <div>
-                                            <p class="dark:text-gray-400">
-                                                {{ agenda.title }}
-                                            </p>
-                                            <p
-                                                class="text-sm dark:text-gray-500"
-                                            >
-                                                {{ agenda.date }}
-                                            </p>
-                                        </div>
+                                        <i
+                                            :class="agenda.icon"
+                                            class="text-white h-6 w-6 flex items-center justify-center"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <div
+                                    class="ml-5 w-0 flex items-center flex-1"
+                                >
+                                    <div>
+                                        <p class="dark:text-gray-400">
+                                            {{ agenda.title }}
+                                        </p>
+                                        <p
+                                            class="text-sm dark:text-gray-500"
+                                        >
+                                            {{ agenda.date }}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
-                        </template>
-                    </BaseCard>
-                </div>
+                        </div>
+                    </template>
+                </BaseCard>
             </div>
 
             <div class="col-span-1 sm:col-span-2">
