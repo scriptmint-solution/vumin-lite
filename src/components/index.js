@@ -5,6 +5,7 @@ import AppHeader from '@layouts/Partials/AppHeader.vue'
 import AppNavigation from '@layouts/Partials/AppNavigation.vue'
 import MobileSidebar from '@layouts/Partials/MobileSidebar.vue'
 import ProfileDropdown from '@layouts/Partials/ProfileDropdown.vue'
+import PageHeader from '@layouts/Partials/PageHeader.vue'
 
 import BaseCard from '@components/Ui/BaseCard.vue'
 
@@ -25,6 +26,7 @@ export default app => {
   app.component('AppNavigation', AppNavigation)
   app.component('MobileSidebar', MobileSidebar)
   app.component('ProfileDropdown', ProfileDropdown)
+  app.component('PageHeader', PageHeader)
 
   app.component('BaseCard', BaseCard)
 
