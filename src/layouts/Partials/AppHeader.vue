@@ -2,8 +2,8 @@
     <div class="relative shrink-0 flex justify-between h-16 bg-black dark:bg-dark-header dark:border-b dark:border-gray-700" >
         <div class="flex items-center space-x-4">
             <div class="flex items-center">
-                <img src="assets/images/icon.png" class="sm:hidden h-10 ml-4 mr-2" />
-                <img src="assets/images/logo.png" class="hidden sm:block h-10 ml-4 mr-2" />
+                <img src="/images/icon.png" class="sm:hidden h-10 ml-4 mr-2" />
+                <img src="/images/logo.png" class="hidden sm:block h-10 ml-4 mr-2" />
             </div>
             <i class="fas fa-bars lg:hidden text-gray-500 dark:text-gray-300" @click="setSidebar('mobile')"></i>
         </div>
