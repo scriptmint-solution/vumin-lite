@@ -76,6 +76,12 @@ const navigations = [
         path: 'Form'
     },
     {
+        icon: 'far fa-square',
+        label: 'Card',
+        name: 'Card',
+        path: 'Card'
+    },
+    {
         icon: 'fas fa-sign-in-alt',
         label: 'Login',
         name: 'Login',

@@ -9,6 +9,7 @@ import Password from '@components/Pages/Password.vue'
 import Dashboard from '@components/Pages/Dashboard.vue'
 import Table from '@components/Pages/Table.vue'
 import Form from '@components/Pages/Form.vue'
+import Card from '@components/Pages/Card.vue'
 import Error404 from '@components/Pages/Error404.vue'
 
 const baseURL = '/'
@@ -34,6 +35,11 @@ const routes = [
                 path: 'form',
                 name: 'Form',
                 component: Form,
+            },
+            {
+                path: 'card',
+                name: 'Card',
+                component: Card,
             },
         ]
     },

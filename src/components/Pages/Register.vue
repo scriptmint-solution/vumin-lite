@@ -13,7 +13,7 @@
 
             <BaseInput type="password" name="passwordConfirmation" label="Confirm Password" />
 
-            <BaseButton type="submit" block>Register</BaseButton>
+            <BaseButton type="submit" @click="router.push({name: 'Dashboard'})" block>Register</BaseButton>
 
             <div class="flex items-center justify-center">
                 <BaseLink to="Login">Back to Login</BaseLink>
@@ -23,5 +23,7 @@
 </template>
 
 <script setup>
+import { useRouter } from "vue-router"
 
+const router = useRouter()
 </script>
