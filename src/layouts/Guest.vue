@@ -1,7 +1,7 @@
 <template>
     <div class="flex min-h-screen bg-gray-50 dark:bg-dark-body">
         <div class="relative flex-1 hidden md:block blur-xs">
-            <img class="absolute h-full w-full inset-0 object-cover" src="assets/images/guest-background.jpeg" alt="">
+            <img class="absolute h-full w-full inset-0 object-cover" src="/images/guest-background.jpeg" alt="">
         </div>
         <div class="flex-1 p-4 sm:p-16 lg:p-32 lg:flex-none">
 
@@ -10,7 +10,7 @@
                     <a href="/" class="mb-6">
                         <img
                             class="h-16 w-auto"
-                            src="assets/images/icon.png"
+                            src="/images/icon.png"
                             alt=""
                         />
                     </a>
