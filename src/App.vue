@@ -3,7 +3,7 @@
         <div class="text-white text-center px-10 py-2">
             <a href="https://scriptmint.com/vana-admin" target="_blank" class="">
                 <span class="bg-danger px-4 py-1 rounded-full">Pro Version</span>
-                Checkout our Advanced Version Vana-Admin built with Laravel, Vue.js & Tailwind CSS at https://scriptmint.com/vana-admin
+                Checkout our Advanced Version Vana-Admin built with Laravel, Vue.js & Tailwind CSS here.
             </a>
         </div>
     </div>
