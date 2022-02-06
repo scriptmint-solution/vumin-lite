@@ -4,7 +4,7 @@
             <i class="absolute top-6 right-6 fas fa-times" @click="setSidebar('full')"></i>
             <img
                 class="px-4 h-10 w-auto"
-                src="/assets/images/logo.png"
+                src="assets/images/logo.png"
                 alt="logo"
             />
             <div class="mt-5 flex-1 h-0">

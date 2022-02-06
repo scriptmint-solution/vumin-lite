@@ -3,7 +3,7 @@
     <MenuButton class="inline-flex items-center justify-center">
         <img
             class="h-8 w-8 rounded-full"
-            src="/assets/images/male.png"
+            src="assets/images/male.png"
             alt=""
         />
     </MenuButton>
