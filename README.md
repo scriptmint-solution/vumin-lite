@@ -7,7 +7,7 @@
 - Compsition API
 - Script Setup Syntax
 
-Live Demo: https://vumin.scriptmint.com
+Live Demo: https://vumin-lite.scriptmint.com
 
 GitHub Repository: https://github.com/scriptmint-solution/vumin-lite
 
