@@ -13,7 +13,8 @@ GitHub Repository: https://github.com/scriptmint-solution/vumin-lite
 
 ### Advance and Full Featured Admin Panel built with Laravel, Vue.js & Tailwind CSS is available.
 
-Live Demo of Advance Version: https://ui.scriptmint.com
+Live Demo of Advance Version (Vue.js 3 & Tailwind CSS): https://vumin.scriptmint.com
+Live Demo of Advance Version (Laravel 9, Vue.js 3 & Tailwind CSS): https://ui.scriptmint.com
 
 ### Features Available
 - Mobile Responsive
