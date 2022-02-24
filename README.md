@@ -1,4 +1,4 @@
-### Vumin is a Free Admin Template built with Vue.js & Tailwind CSS.
+### Vumin is a Free Vue.js & Tailwind CSS Admin Template.
 
 ### Highlights
 - SPA (Single Page Application)
